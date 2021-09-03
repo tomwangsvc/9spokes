@@ -7,6 +7,6 @@ Run to see output as it is compiled
 ./9spokes
 ```
 
+Checkout [outcome](https://github.com/tomwangsvc/9spokes/blob/master/result.png)
 
-
-
+Or you can build golang environment and build it by yourself
