@@ -11,7 +11,7 @@ A comma is used to separate every 3 digits in the thousands, millions, billions,
 Cents are removed
 */
 func FormatCurrency(currency float64) string {
-	currencyString := fmt.Sprintf("%.0f", (math.Trunc(currency))) // Remove cents
+	currencyString := fmt.Sprintf("%.0f", currency) // Remove cents
 	newCurrencyString := currencyString
 	i := 2
 	ii := 2
